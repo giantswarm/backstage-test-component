@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test-component
+  annotations:
+    github.com/project-slug: giantswarm/backstage-test-component
+spec:
+  type: other
+  lifecycle: unknown
+  owner: team-horizon
